@@ -126,7 +126,7 @@ ul, ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(./images/people-office.jpg) ;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), rgba(46, 47, 66, 0.7) url(./images/people-office.jpg) ;
 }
 .page-title {
     font-weight: 700;
@@ -267,7 +267,7 @@ ul, ol {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     background: #fff;
-   
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 } 
 .avatar-name {
     font-weight: 500;
@@ -297,7 +297,19 @@ ul, ol {
 .social:focus{
 background-color: #404bbf;
 }
-
+.media-list-item-t {
+    width: 40px;
+    height: 40px;
+}
+.media-dscr-social {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* ======portfolio====== */
 .portfolio {
     padding-top: 120px;
@@ -410,7 +422,7 @@ background-color: #404bbf;
 .media-list {
     display: flex;
     gap: 16px;
-    justify-content: center;
+    
 }
 .media-list-item {
     width: 40px;
