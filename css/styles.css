@@ -126,7 +126,7 @@ ul, ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), rgba(46, 47, 66, 0.7), url(../images/people-office.jpg) ;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .page-title {
     font-weight: 700;
@@ -443,6 +443,8 @@ background-color: #404bbf;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 208px;
+   
 }
 .media-list {
     display: flex;
@@ -452,7 +454,7 @@ background-color: #404bbf;
 .media-list-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4,0,0.2,1)
+   
 } 
 .media-dscr {
     display: flex;
@@ -465,6 +467,7 @@ background-color: #404bbf;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
+   
 }  
 .media-dscr:hover{
     background-color: #31d0aa;
