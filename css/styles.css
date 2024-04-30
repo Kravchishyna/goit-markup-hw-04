@@ -399,16 +399,12 @@ background-color: #404bbf;
     margin-left: auto;
     margin-right: auto; 
 }
-.footer-section {
-    display: flex;
-    align-items: baseline;
-   
-}
 .footer-p {
     display: flex;
     flex-direction: column;
     margin-left: 156px;
     margin-right: 120px;
+    align-items: baseline;
 }
 
 .logo-f {
