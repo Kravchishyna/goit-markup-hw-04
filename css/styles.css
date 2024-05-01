@@ -402,11 +402,12 @@ background-color: #404bbf;
 .footer-p {
     display: flex;
     flex-direction: column;
-    margin-left: 156px;
     margin-right: 120px;
+}
+.media-f {
+    display: flex;
     align-items: baseline;
 }
-
 .logo-f {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -449,7 +450,7 @@ background-color: #404bbf;
     justify-content: center;
     align-items: center;
     max-width: 208px;
-   flex-direction: column;
+    flex-direction: column;
 }
 .media-list {
     display: flex;
